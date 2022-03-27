@@ -1,0 +1,23 @@
+.book-item {
+    display: flex;
+    margin: 0 10px 50px;
+}
+
+.book-item > .image {
+    margin-right: 15px;
+    max-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px #c8c8c8;
+}
+
+.book-item .price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.book-item > .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}

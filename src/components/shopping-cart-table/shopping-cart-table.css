@@ -1,0 +1,33 @@
+.table {
+    margin: 35px 0;
+}
+
+.table .count .btn {
+    padding: 10px;
+}
+
+.table .action .btn {
+    padding: 10px 15px;
+}
+
+.table .btn:focus {
+    box-shadow: none;
+    color: black;
+}
+
+.table .count {
+    min-width: 130px;
+}
+
+.table .total {
+    text-align: right;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.shopping-cart-table .card {
+    margin-top: 50px;
+    text-align: center;
+}
